@@ -6,7 +6,7 @@
   $subject   = $_Post['subject'] ; 
   $mailFrom = $_Post['mail'] ; 
   $message = $_Post['message'] ; 
-  $mailTo = "clashnow@gmailcom" ;
+  $mailTo = "clashnow0@gmail.com" ;
   $headers = "From: ".$mailFrom ; 
   $txt = "You have received an email from ".$name.".\n\n".$message ; 
   mail($mailTo , $subject , $txt  , $headers  ) ; 
