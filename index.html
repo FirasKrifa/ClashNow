@@ -348,26 +348,15 @@
 
         <section id="contact">
           <div class="container">
-             <h1>CONTACT US</h1>
-             <div class="row">
-             <div class="col-md-6">
-             <form class="contact-form" action="index.php"  method= "post" >
-             <div class="form-group">
-             <input type="text" name= "name"  placeholder="FullName">    
-               </div>
-             <div class="form-group">
-             <input type="text " name="mail " placeholder="Your e-mail ">    
-             </div>
-               <div class="form-group">
-             <input type="text " name="subject " placeholder="Subject ">    
-             </div>
-             <div class="form-group">
-             <textarea  placeholder="Message "></textarea>    
-             </div>
-             <button type="submit" class="btn btn-primary" name = "submit" > Send</button>
-             </form>
-             </div>
-             <div class="col-md-6 contact-info">
+            <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form class="contact" action="" method="post">
+          <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+          <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required><textarea>
+          <input type="submit" name="submit" class="send-btn" value="Send">
+        </form>
+      </div>
                  <div class="follow"><b>Adress:</b><i class="fa fa-map-marker"></i>Gouvernorat de Sousse , Tunisia </div>
                 
                  <div class="follow"><b>Email:</b><i class="fa fa-envelope-o"></i>clashnow0@gmail.com
