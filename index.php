@@ -20,10 +20,7 @@
      $headers .= "Reply-To: $user_email\r\n";
      
      
-     $secretKey = "6LeozooUAAAAAKnUm0uZkmLjitcxGzsD2yI2JKlA";
-     $responseKey = $_POST['g-recaptcha-response'];
-     $UserIP = $_SERVER['REOMTE_ADDR'];
-     $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$UserIP";
+     
      
      $response = file_get_contents($url);
      $response = json_decode($response);
@@ -35,7 +32,7 @@
      }
      else
      {
-         echo "<span>Invalid Captcha, Please Try Again</span>";
+         echo "<span> Please Try Again</span>";
      }
  }
 ?>
