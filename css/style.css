@@ -981,16 +981,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 {
     margin-top: 40px;
 }
-.icon
-{
-    font-size: 40px;
-    margin: 20px auto;
-    padding: 20px;
-    height: 80px;
-    width: 80px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-}
+
 #paiment p
 {
     font-size: 16px;
