@@ -778,11 +778,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services p
 {
-   font-size: 16px;
+     font-size: 19px;
     text-align: center;
 margin-top: 20px;
-    color:#000000 ;
-
+    	color : #FFFFFF
 }
 .services .col-md-3:hover{
     background: #FF0000;
@@ -978,7 +977,7 @@ margin-top: 20px;
     font-size: 19px;
     text-align: center;
 margin-top: 20px;
-    color:#000000 ;
+    	color : #FFFFFF
    
 
 }
