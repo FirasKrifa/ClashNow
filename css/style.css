@@ -792,48 +792,59 @@ margin-top: 20px;
 }
 
 
-/* Clients Section
---------------------------------*/
 
-#clients {
-  padding: 60px 0;
+#rules
+{
   background: url("../img/e.jpg") center top no-repeat fixed;
-  font-size: 19px;
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#rules h1
+{
     text-align: center;
-margin-top: 20px;
-    	color : #FFFFFF ; 
+    color: #000!important;
+    padding-bottom: 10px;
+   
+}
+#rules h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.rules
+{
+    margin-top: 40px;
 }
 
-#clients img {
-  max-width: 100%;
-  opacity: 0.5;
-  transition: 0.3s;
-  padding: 15px 0;
-}
+#rules p
+{
+    font-size: 19px;
+   
+    	color : #FFFFFF
+               text-align: center; 
 
-#clients img:hover {
-  opacity: 1;
-}
 
-#clients .owl-nav,
-#clients .owl-dots {
-  margin-top: 5px;
-  text-align: center;
-}
+   
 
-#clients .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #ddd;
 }
+.rules.col-md-3:hover{
+    background: #FF0000;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#rules.rules-col:hover .icon {
+  background-color: #fff;
+}  
 
-#clients .owl-dot.active {
-  background-color:  #FFFFFF ; 
-;
-}
+
 
 
 
