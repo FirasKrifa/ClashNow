@@ -799,6 +799,10 @@ margin-top: 20px;
 #clients {
   padding: 60px 0;
   background: url("../img/e.jpg") center top no-repeat fixed;
+  font-size: 19px;
+    text-align: center;
+margin-top: 20px;
+    	color : #FFFFFF
 }
 
 #clients img {
