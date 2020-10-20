@@ -993,9 +993,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #paiment p
 {
-    font-size: 14 px;
-    margin-top: 15 px;
-    color: #000000 ;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
    
 
 }
